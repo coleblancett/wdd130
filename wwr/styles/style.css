@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,10 +7,15 @@
 
 nav a{
     text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #0c427c;
+    text-decoration: none;
+    padding: 35px;
 }
 
-#hero-msg h1, #hero-msg h4{
+#hero-message h1, #hero-message h4{
     text-align: center;
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
 }
 
 .button-box{
@@ -19,12 +26,22 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background{
     height: 725px;
 }
 
+h2{
+    margin: 0;
+}
+
 body{
     background-color: #fcfbfb;
+    padding: 0;
+    margin: 0;
 }
 
 header{
@@ -33,59 +50,82 @@ header{
 
 nav a:hover{
     background-color: #ffc933;
-}
-
-
-.book:hover, .join:hover{
-    background-color: #ffc933;
+    color: #4078b5;
 }
 
 #background{
-    background-color: #4078b5;
+    background-color: #8eaac9;
 }
 
 .msg{
-    background-color: #ff9147;
-}
-
-footer{
-    background-color: #ff9147;
-}
-
-nav a{
-    color: #0c427c;
-}
-
-nav a:hover{
-    color: #4078b5;
+    background-color: #ffad76;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .home-title{
     color: #ff9147;
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
 }
 
 h4{
     color: #4078b5;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.card-img{
+    border: 10px solid #ffad76;
 }
 
 .book, .join{
     color: #0c427c;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     color: #4078b5;
+    background-color: #ffc933;
 }
 
 .msg h2{
     color: #4078b5;
+    font-family: "Rock Salt", "Bradley Hand", sans-serif;
 }
 
 .msg p{
     color: #0c427c;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     color: #0c427c;
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #ff9147;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer a{
@@ -100,15 +140,14 @@ footer a:hover{
     width: 80px
 }
 
-.icon{
-    width: 80px;
+#logo_link{
+    padding-top: 5px;
 }
 
-nav a{
-    text-align: center;
-    color: #0c427c;
-    text-decoration: none;
-}    
+.icon{
+    width: 80px;
+    padding-top: 10px;
+} 
                     
 .book, .join{
     text-align: center;
@@ -124,6 +163,7 @@ footer a{
 
 footer p {
     font-size: 1.2em;
+    font-family: Roboto, Helvetica, sans-serif;
 }    
 
 footer p a:hover {
