@@ -68,7 +68,7 @@
 .content3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 80px;
+  grid-column-gap: 10%;
 }
 .red3 {
   width: 100%; 
