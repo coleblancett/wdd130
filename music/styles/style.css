@@ -54,7 +54,7 @@ nav a:hover{
 }
 
 #hero-msg h4{
-    color: white;
+    color: #6b0f1f;
     text-align: center;
     font-family: "Rock Salt", "Bradley Hand", sans-serif;
 }
@@ -192,3 +192,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
+
+/** QUEEN CSS **/
+
